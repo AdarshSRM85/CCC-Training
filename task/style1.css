@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+}
+
+.box{
+    font-family: sans-serif;
+    border: 5px solid black;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.img-box{
+    width: 60%;
+}
+
+.h11{
+    background-color: aliceblue;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.cart{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: 0;
+    width: 100%;
+    border-top: 5px solid black;
+}
+
+.cart:hover{
+    background-color: white;
+    color: black;
+}
+.ull{
+    margin-top: 10px;
+}
+
+li{
+    margin-left: 50px;
+}
+
+.shipping{
+    margin-bottom: 10px;
+    margin-top: 0;
+    opacity: 45%;
+}
+
+.more{
+    text-decoration: underline;
+    color: black;
+}
+
+.product{
+    margin-top: 10px;
+}
+
+.colors{
+    display: flex;
+    gap: 10px;
+}
+
+.cl{
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.color1{
+    background-color: black;
+}
+
+.color2{
+    background-color: red;
+}
+
+.color3{
+    background-color: aqua;
+}
+
+.color4{
+    background-color: purple;
+}
+
+.color5{
+    background-color: rgb(255, 145, 0);
+}
+
+.box{
+    position: relative;
+}
+
+.sale{
+    background-color: red;
+    display: inline;
+    padding: 5px;
+    top: -15px;
+    left: -30px;
+    letter-spacing: 1.5px;
+    position: absolute;
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.free{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}
